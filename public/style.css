@@ -1,0 +1,51 @@
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+#container {
+  position: relative;
+  height: 100%;
+}
+
+#rombo{
+  width: 200px;
+  height: 200px;
+
+  /*center div vertically and horizontally*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -100px;
+
+  transform: rotate(45deg);
+  /* Firefox */
+  -moz-transform:rotate(45deg);
+  /* Safari and Chrome */
+  -webkit-transform:rotate(45deg);
+  /* Opera */
+  -o-transform:rotate(45deg);
+  /* IE9 */
+  -ms-transform:rotate(45deg);
+
+}
+
+#text{
+  transform: rotate(315deg);
+  transform: rotate(315deg);
+  /* Firefox */
+  -moz-transform:rotate(315deg);
+  /* Safari and Chrome */
+  -webkit-transform:rotate(315deg);
+  /* Opera */
+  -o-transform:rotate(315deg);
+  /* IE9 */
+  -ms-transform:rotate(315deg);
+  color: white;
+  font-size: 23px;
+  position: absolute;
+  top: 75px;
+  left: -10px;
+  text-align: center;
+  cursor: default;
+}

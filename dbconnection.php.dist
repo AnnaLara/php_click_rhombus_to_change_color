@@ -1,0 +1,9 @@
+<?php
+
+/*I have used Amazon RDS to host my MYSQL database and I have concealed access parameters*/
+$host = 'colors-db.c5nlkomyq7tq.eu-west-1.rds.amazonaws.com';
+$username = 'USER';
+$password = 'PASSWORD';
+$dbname = 'colors';
+
+$mysqli = new mysqli($host, $username, $password, $dbname);
